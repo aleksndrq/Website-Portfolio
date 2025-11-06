@@ -341,51 +341,59 @@ header nav a:hover {
   border: 2px solid #fff;
   border-radius: 12px;
   height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .project .container .content .projects .card img {
   width: 100%;
   height: 50%;
+  object-fit: cover;
+  border-radius: 8px;
 }
 
 .project .container .content .projects .card .description {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   gap: 8px;
-  height: 50%;
+  flex-grow: 12px;
 }
 
 .project .container .content .projects .card .description h1 {
   font-weight: bold;
-  font-size: 28px;
+  font-size: 1.5rem;
 }
 
 .project .container .content .projects .card .description p {
-  font-size: 18px;
-  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.4;
   text-align: justify;
 }
 
 .project .container .content .projects .card .description .action {
-  width: 100%;
+  margin-top: auto;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 12px;
+  justify-content: center;
+  align-items: flex-end;
 }
 
 .project .container .content .projects .card .description .action button {
   cursor: pointer;
-  display: flex;
+  font-weight: 600;
+  font-size: 16px;
   justify-content: center;
   align-items: center;
-  padding: 12px;
+  padding: 10px 0;
   border: 2px solid #fff;
-  border-radius: 12px;
+  border-radius: 10px;
   background: transparent;
   color: #fff;
-  width: 75%;
+  width: 100%;
+  max-width: 150px;
   transition: 0.3s linear;
+  text-align: center;
 }
 
 .project .container .content .projects .card .description .action button:hover {
