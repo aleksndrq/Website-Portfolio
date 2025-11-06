@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang= "en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="screen" content="width=device-width, inital-scale=1.0" />
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" /> 
+        <!-- AOS above-->
+        <link rel="stylesheet" href="style.css" />
+        <link rel="icon" href="Graphics/transparent.png" />
+    </head>
+    <body> 
+        <header>
+            <div class="logo">
+                <img src="Graphics/transparent.png" alt="logo" />
+                <a>Aleksandra's Portfolio</a>
+            </div>
+
+             <nav>
+        <a href="#">Home</a>
+        <a href="#about">About</a>
+        <a href="#skill">Skill</a>
+        <a href="#project">Coding Projects</a>
+        <a href="#contact">Art and Designs</a>
+            </nav>
+
+            <div class="extra-nav">
+                <button>Get In Touch</button>
+            </div>
+
+            <div id="menu" class="hamburger-menu">
+        <svg
+          width="35px"
+          height="35px"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M4 18L20 18"
+            stroke="#ffffff"
+            stroke-width="2"
+            stroke-linecap="round"
+          />
+          <path
+            d="M4 12L20 12"
+            stroke="#ffffff"
+            stroke-width="2"
+            stroke-linecap="round"
+          />
+          <path
+            d="M4 6L20 6"
+            stroke="#ffffff"
+            stroke-width="2"
+            stroke-linecap="round"
+          />
+        </svg>
+      </div>
+
+      <!-- Mobile Nav -->
+      <div id="nav-mobile" class="mobile-nav">
+        <div id="close-mobile" class="close">
+          <svg
+            width="800px"
+            height="800px"
+            viewBox="0 0 32 32"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <defs>
+              <style>
+                .cls-1 {
+                  fill: none;
+                  stroke: #ffffff;
+                  stroke-linecap: round;
+                  stroke-linejoin: round;
+                  stroke-width: 2px;
+                }
+              </style>
+            </defs>
+
+            <title />
+
+            <g id="cross">
+              <line class="cls-1" x1="7" x2="25" y1="7" y2="25" />
+
+              <line class="cls-1" x1="7" x2="25" y1="25" y2="7" />
+            </g>
+          </svg>
+        </div>
+        <ul>
+          <li><a class="nav-link" href="#">Home</a></li>
+          <li><a class="nav-link" href="#about">About</a></li>
+          <li><a class="nav-link" href="#skilll">Skilll</a></li>
+          <li><a class="nav-link" href="#project">Project</a></li>
+          <li><a class="nav-link" href="#contact">Art and Designs</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <div class="content">
+          <svg viewBox="0 0 1500 500" data-aos="fade-down">
+            <text x="50%" y="50%" text-anchor="middle">ALEKSANDRA ELCSICS</text>
+          </svg>
+          <h1 data-aos="zoom-in-up">
+            Using creativity and efficiency to be <span>INNOVATIVE
+            </span>
+          </h1>
+          <span>vv Scroll Down vv</span>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- About Me Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="content">
+          <h1 data-aos="zoom-in-down" data-aos-delay="300" class="title">
+            About Me
+          </h1>
+          <div class="about-me">
+            <div data-aos="zoom-out-right" data-aos-delay="300" class="profile">
+              <div class="image-box">
+                <img src="Graphics/mechina.jpg" alt="profile" />
+              </div>
+            </div>
+
+            <div
+              data-aos="zoom-in-left"
+              data-aos-delay="300"
+              class="description"
+            >
+              <div class="name-role">
+                <h1>Aleksandra Elcsics</h1>
+                <div class="role">
+                  <h2>Aspiring Website Developer and UI/UX designer</h2>
+                </div>
+              </div>
+              <p>
+                Hello! My name is Aleksandra Elcsics and I am a Computer Science 
+                and Marketing major at the University of Connecticut! I am a 
+                sophomore that has a passion in coding and website development. 
+                I love to problem solve and create something that many different 
+                people can use. I use my ideas to be creative and innovative, 
+                finding new ways to spread new purposes!<br />
+                <br />
+                In addition to this,  I have used countless software's for projects 
+                and designs that were for classwork, social media, or just personal 
+                use. With this being said, I am open to learning new applications to 
+                get more well-rounded in other areas. On top of that, I have used AI
+                and computer vision in some projects to connect with future technology. 
+                I plan to learn upon these topics even more to continue to strengthen 
+                my knowledge.<br />
+                <br />
+                Lastly, I am part of social media marketing within the University of 
+                Connecticut's Taekwondo Club. Here I have the role of Social Media 
+                Chair, where I create posts and designs for the team. This includes 
+                Instagram posts to designing merchandise. I combine marketing and 
+                efficiently advertising to get my messages across.  
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!--Skill Section-->
+    <section id="skill" class="skill">
+      <div class="container">
+        <div class="content">
+          <h1 data-aos="zoom-in-down" data-aos-delay="300" class="title">
+            Skills
+          </h1>
+
+          <div class="skills" data-aos-delay="500">
+            <div class="skill" data-tooltip="HTML: Code I write to structure websites with needed content.">
+              <img src="Software_Logos/html.png" alt="HTML" />
+            </div>
+            <div class="skill" data-tooltip="CSS: Code I write that adds controls layout and design of website.">
+              <img src="Software_Logos/css.svg" alt="CSS" />
+            </div>
+            <div class="skill" data-tooltip="JavaScript: Code I write that adds interactivity and logic.">
+              <img src="Software_Logos/JS.png" alt="JavaScript" />
+            </div>
+            <div class="skill" data-tooltip="Python: Coding language I use that has a general-purpose.I use code for academic and AI work. ">
+              <img src="Software_Logos/python.png" alt="Python" />
+            </div>
+            <div class="skill" data-tooltip="Visual Studio Code: Is an integrated development environment (IDE) that I use to code projects and websites.">
+              <img src="Software_Logos/VSCode.png" alt="Visual Studio" />
+            </div>
+            <div class="skill" data-tooltip="PyCharm: It is an integrated development environment (IDE) that is made for writing and debugging code efficently. I used it mainly for my AI projects. ">
+              <img src="Software_Logos/PyCharm.png" alt="PyCharm" />
+            </div>
+            <div class="skill" data-tooltip="Photoshop: An Adobe software that is a photo editor that I use to draw, make posters, designs, and logos.">
+              <img src="Software_Logos/Photoshop.png" alt="Photoshop" />
+            </div>
+            <div class="skill" data-tooltip="Illustrator: An Adobe software that is mainly used for logos and text.">
+              <img src="Software_Logos/Illustrator.png" alt="Illustrator" />
+            </div>
+            <div class="skill" data-tooltip="After Effects: An Adobe software that is used for video editing.">
+              <img src="Software_Logos/aftere.png" alt="After Effects" />
+            </div>
+            <div class="skill" data-tooltip="Solid Works: It is an industry-standard 3D computer-aided design (CAD), which I used to create 3D models with and 3D printed with.">
+              <img src="Software_Logos/SolidWorks.png" alt="Solid Works" />
+            </div>
+            <div class="skill" data-tooltip="Microsoft Word: I used this to create documents, tables, and graphs for academic and personal work.">
+              <img src="Software_Logos/Word.png" alt="Microsoft Word" />
+            </div>
+            <div class="skill" data-tooltip="Microsoft Excel: Used to make spread sheets of infomation. I used this during classwork to store data and to make graphs.  ">
+              <img src="Software_Logos/Excel.png" alt="Microsoft Excel" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!--Project Section-->
+    <section id="project" class="project">
+      <div class="container">
+        <div class="content">
+          <h1 data-aos="zoom-in-down" data-aos-delay="300" class="title">
+            Coding Projects
+          </h1>
+
+          <div class="projects">
+            <div data-aos="zoom-in-down" data-aos-delay="300" class="card">
+              <img src="ProjectPics/AIDetection.png" alt="project" />
+
+              <div class="description">
+                <h1>AI Detection</h1>
+                <p>
+                  This project uses a YOLO model that has a database of objects that get searched for 
+                  when the camera is turned on. It also can search for objects with speech, after 
+                  user toggles the button and states the object. Confidence level is included. 
+                </p>
+                <div class="action">
+                    <a href="https://github.com/aleksndrq/AI-detection/tree/main" target="_blank" rel="noopener noreferrer">
+                      <button>Github</button>
+                    </a>
+                </div>
+              </div>
+            </div>
+            <div data-aos="zoom-in-down" data-aos-delay="400" class="card">
+              <img src="assets/project.png" alt="project" />
+
+              <div class="description">
+                <h1>Novaspace</h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
+                  voluptas eaque enim soluta blanditiis velit quisquam delectus
+                  reiciendis debitis laboriosam.
+                </p>
+                <div class="action">
+                  <button>Github</button>
+                </div>
+              </div>
+            </div>
+            <div data-aos="zoom-in-down" data-aos-delay="500" class="card">
+              <img src="assets/project.png" alt="project" />
+
+              <div class="description">
+                <h1>Novaspace</h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
+                  voluptas eaque enim soluta blanditiis velit quisquam delectus
+                  reiciendis debitis laboriosam.
+                </p>
+                <div class="action">
+                  <button>Github</button>
+                  <button>Demo</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+        <!-- ArtWork Section -->
+        <section id="contact" class="contact">
+          <div class="container">
+            <div class="content">
+              <h1 data-aos="zoom-in-down" data-aos-delay="300" class="title">
+                Artwork and Designs
+              </h1>
+
+                      <!-- Art Gallery -->
+            <div class="art-gallery">
+
+              <!-- Row 1 -->
+              <div class="art-card" data-aos="zoom-in" data-aos-delay="100">
+                <img src="Art/littleme.png" alt="Digital Portrait" />
+                <div class="art-info">
+                  <h3>Digital Portrait</h3>
+                  <p>Created using Adobe Photoshop with my own brushes. It is a picture of me with my favorite toy at the time.</p>
+                </div>
+              </div>
+
+              <div class="art-card" data-aos="zoom-in" data-aos-delay="150">
+                <img src="Art/Tyler.png" alt="Poster Design" />
+                <div class="art-info">
+                  <h3>Poster Design</h3>
+                  <p>Created using Adobe Photoshop. Handrawn poster of artist Tyler the Creator.</p>
+                </div>
+              </div>
+
+              <div class="art-card" data-aos="zoom-in" data-aos-delay="200">
+                <img src="Art/oldcouple.png" alt="Digital Art" />
+                <div class="art-info">
+                  <h3>Digital Art</h3>
+                  <p>Created using Adobe Photoshop. Handrawn poster of an old couple sitting in a field.</p>
+                </div>
+              </div>
+
+              <div class="art-card" data-aos="zoom-in" data-aos-delay="250">
+                <img src="Art/cameragirl.jpg" alt="Digital Art" />
+                <div class="art-info">
+                  <h3>Digital Art</h3>
+                  <p>Created using Adobe Photoshop. A photo of a girls outfit taken from the camera POV.</p>
+                </div>
+              </div>
+
+              <!-- Row 2 -->
+              <div class="art-card" data-aos="zoom-in" data-aos-delay="300">
+                <img src="Art/color.png" alt="Digital Poster" />
+                <div class="art-info">
+                  <h3>Digital Poster</h3>
+                  <p> Created in Photoshop. Bright poster made vector style.</p>
+                </div>
+              </div>
+
+              <div class="art-card" data-aos="zoom-in" data-aos-delay="350">
+                <img src="Art/Monkey.png" alt="Digital Poster" />
+                <div class="art-info">
+                  <h3>Digital Poster</h3>
+                  <p>Created in Photoshop. Newpaper style image to give and old look in a new time.</p>
+                </div>
+              </div>
+
+              <div class="art-card" data-aos="zoom-in" data-aos-delay="400">
+                <img src="Art/Kento.jpeg" alt="Vector Art" />
+                <div class="art-info">
+                  <h3>Vector Art</h3>
+                  <p>Vector project focusing on clean shapes and bold color contrast.</p>
+                </div>
+              </div>
+
+              <div class="art-card" data-aos="zoom-in" data-aos-delay="450">
+                <img src="Art/timeless.png" alt="Digital Poster" />
+                <div class="art-info">
+                  <h3>Digital Poster</h3>
+                  <p>Created on Photoshop. Poster collage.</p>
+                </div>
+              </div>
+
+              <!-- Row 3 -->
+              <div class="art-card" data-aos="zoom-in" data-aos-delay="500">
+                <img src="Art/surreal.jpg" alt="Surreal Poster" />
+                <div class="art-info">
+                  <h3>Surreal Poster</h3>
+                  <p>Poster created on Photoshop, showing surreal objects together in a collage.</p>
+                </div>
+              </div>
+
+              <div class="art-card" data-aos="zoom-in" data-aos-delay="550">
+                <img src="Art/post.jpg" alt="Social Media Post" />
+                <div class="art-info">
+                  <h3>Social Media Post</h3>
+                  <p>Poster made on photoshop for UConn Taekwondos Instagram. It was used to advertise fundraising.</p>
+                </div>
+              </div>
+
+              <div class="art-card" data-aos="zoom-in" data-aos-delay="600">
+                <img src="Art/fundrasier2 copy.jpg" alt="Social Media Post" />
+                <div class="art-info">
+                  <h3>Social Media Post</h3>
+                  <p>Poster made on photoshop for UConn Taekwondos Instagram. Used to promote fundraising.</p>
+                </div>
+              </div>
+
+              <div class="art-card" data-aos="zoom-in" data-aos-delay="650">
+                <img src="Art/dayonetkd.jpg" alt="Social Media Post" />
+                <div class="art-info">
+                  <h3>Social Media Post</h3>
+                  <p>Poster made on photoshop for UConn Taekwondos Instagram. Made to promote first practice.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div data-aos="fade-up" data-aos-duration="1000" class="container">
+        <div class="profile">
+          <div class="logo">
+            <img src="Graphics/transparent.png" alt="logo" />
+            <a href="">Aleksandra Elcsics</a>
+          </div>
+
+          <!-- Short About -->
+          <p>
+           Phone Number: 860-500-6582<br />
+           <br />                
+           Email: aelcsics@yahoo.com
+          </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <!-- Box Icon -->
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
+    </body>
+
